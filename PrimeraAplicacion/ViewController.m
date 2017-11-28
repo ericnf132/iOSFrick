@@ -9,6 +9,10 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+- (IBAction)loginAction;
+
+
+@property (weak, nonatomic) IBOutlet UITextField *userTextField;
 
 @end
 
@@ -17,12 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (IBAction)loginButton:(id)sender {
     
 }
-
 
 
 - (void)didReceiveMemoryWarning {
@@ -31,4 +31,8 @@
 }
 
 
+- (IBAction)loginButton:(UIButton *)sender {
+}
+- (IBAction)loginAction {
+}
 @end
